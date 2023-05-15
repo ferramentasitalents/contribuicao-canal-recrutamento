@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contribuição do Canal de Recrutamento</title>
+  <link href="https://ferramentasitalents.github.io/contribuicao-canal-recrutamento/style.css" rel="stylesheet" />
+  <script src="https://ferramentasitalents.github.io/contribuicao-canal-recrutamento/scripts.js"></script>
+</head>
+<body>
+  <div id="calculator">
+    <form onsubmit="calculateContribution(); return false;">
+      <label>Número de aplicantes provenientes de um canal (LinkedIn):</label>
+      <input type="number" id="num-aplicantes-canal" required>
+      <br>
+      <br>
+      <label>Número total de aplicantes:</label>
+      <input type="number" id="num-aplicantes-total" required>
+      <button type="submit">CALCULAR</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
